@@ -1,0 +1,44 @@
+{
+  "name": "netatmo-ts-api",
+  "description": "Netatmo API Typescript Library wrapper for nodejs applications",
+  "version": "1.0.0",
+  "author": {
+    "name": "Federico Rinaldi",
+    "email": "info@federicorinaldi.com",
+    "url": "https://federicorinaldi.com"
+  },
+  "keywords": ["Netatmo","Typescript","Library","Wrapper","Web application"],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://"
+  },
+  "license": "GPL-3.0-or-later",
+  "source": "index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "run": "parcel serve",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "2.8.0",
+    "@parcel/transformer-typescript-types": "2.8.0",
+    "@types/jest": "^29.2.3",
+    "buffer": "^5.5.0",
+    "jest": "^29.3.1",
+    "parcel": "^2.8.0",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "typedoc": "^0.23.21"
+  }
+}
