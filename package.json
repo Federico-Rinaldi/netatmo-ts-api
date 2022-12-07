@@ -10,10 +10,10 @@
   "keywords": ["Netatmo","Typescript","Library","Wrapper","Web application"],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Federico-Rinaldi/netatmo-ts-lib"
   },
   "bugs": {
-    "url": "https://"
+    "url": "https://github.com/Federico-Rinaldi/netatmo-ts-lib/issues"
   },
   "license": "GPL-3.0-or-later",
   "source": "index.ts",

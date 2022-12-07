@@ -1,8 +1,6 @@
 # Netatmo Typescript API
 
-###### Last update : 2022-12-03 22:58:03 Saturday
-
-##### This library is only a typescript wrapper for Netatmo &copy; Hardware, uses Netatmo &copy; common api. 
+##### This library is only a typescript client for Netatmo &copy; Hardware, uses Netatmo &copy; common api. 
 
 ###### last stable version: 1.0.0
 ------------
@@ -20,10 +18,10 @@
 >  GNU General Public License v3.0 
 
 
-#####  see LICENSE.md for more details
+#####  see [LICENSE.md](https://github.com/Federico-Rinaldi/netatmo-ts-lib/blob/main/LICENSE.md "LICENSE.md") for more details
 
 ------------
 
 ### Infos:
-- :fa-github: Repository
+- :fa-github: [Repository Github](https://federico-rinaldi.github.io/netatmo-ts-lib/index.html "Repository")
 - :fa-rocket: https://federicorinaldi.com
