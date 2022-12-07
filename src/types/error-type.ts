@@ -16,6 +16,7 @@
  /**
   * Types for Netatmo json error object
   * @see https://dev.netatmo.com/apidocumentation/oauth#errors
+  * @author Federico Rinaldi
   */
 export type Error = {
     code:string;

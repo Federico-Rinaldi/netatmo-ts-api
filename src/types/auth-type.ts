@@ -18,6 +18,7 @@ import { Error } from "./error-type";
 /**
  * Types for Netatmo json request object
  * @see https://dev.netatmo.com/apidocumentation/oauth#client-credential
+ * @author Federico Rinaldi
  */
 export type AuthRequest = Error & {
 
@@ -40,6 +41,7 @@ export type AuthRequest = Error & {
 /**
  * Types for Netatmo json response object
  * @see https://dev.netatmo.com/apidocumentation/oauth#client-credential
+ * @author Federico Rinaldi
  */
 export type AuthResponse = Error & {
 

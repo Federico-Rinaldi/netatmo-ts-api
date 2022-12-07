@@ -18,6 +18,7 @@ import { Error } from "./error-type";
  /**
  * Types for Netatmo json Measure request object
  * @see https://dev.netatmo.com/apidocumentation/weather#getmeasure
+ * @author Federico Rinaldi
  */
  export type MeasureRequest = Error & {
 
@@ -47,6 +48,7 @@ import { Error } from "./error-type";
  /**
  * Types for Netatmo json Measure response object
  * @see https://dev.netatmo.com/apidocumentation/weather#getmeasure
+ * @author Federico Rinaldi
  */
  export type MeasureResponse = Error & {
 

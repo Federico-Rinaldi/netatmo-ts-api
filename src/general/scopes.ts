@@ -16,6 +16,7 @@
 /**
  * Scopes enumeration based on Netatmo documentation 
  * @see https://dev.netatmo.com/apidocumentation/oauth#scopes
+ * @author Federico Rinaldi
  */
 
 

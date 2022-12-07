@@ -19,6 +19,7 @@ import { Error } from '../types/error-type';
 
 /**
  * Axios Instance with static baseUrl configure
+ * @author Federico Rinaldi
  */
 export const axiosInstance = axios.create({
     baseURL : NETATMO_API_URL,
@@ -28,6 +29,7 @@ export const axiosInstance = axios.create({
  * Handler for all http request
  * @param request 
  * @returns Request Object
+ * @author Federico Rinaldi
  */
 const requestHandler = (request:any) => {
     return request
@@ -37,6 +39,7 @@ const requestHandler = (request:any) => {
  * Handler for all error occurred in http request
  * @param error AxiosError Object
  * @returns AxiosError Object
+ * @author Federico Rinaldi
  */
 const errorHandler = (error:AxiosError) => {
     const errorResp:Error = {} as Error;
@@ -49,6 +52,7 @@ const errorHandler = (error:AxiosError) => {
    * Handler for success http request
    * @param response 
    * @returns Response Object
+   * @author Federico Rinaldi
    */
 const successHandler = (response:any) => {
     return response
@@ -56,6 +60,7 @@ const successHandler = (response:any) => {
 
   /**
    * Axios interceptor for http request
+   * @author Federico Rinaldi
    */
 axiosInstance.interceptors.request.use(
     request => requestHandler(request)
@@ -63,6 +68,7 @@ axiosInstance.interceptors.request.use(
 
 /**
  * Axios interceptor for http response
+ * @author Federico Rinaldi
  */
 axiosInstance.interceptors.response.use(
     response => successHandler(response),

@@ -18,6 +18,7 @@ import { Error } from "./error-type";
  /**
  * Types for Netatmo json Public Data request object
  * @see https://dev.netatmo.com/apidocumentation/weather#getpublicdata
+ * @author Federico Rinaldi
  */
 export type PublicDataRequest =  Error & {
 
@@ -33,6 +34,7 @@ export type PublicDataRequest =  Error & {
  /**
  * Types for Netatmo json Public Data response object
  * @see https://dev.netatmo.com/apidocumentation/weather#getpublicdata
+ * @author Federico Rinaldi
  */
 export type PublicDataResponse = Error & {
 

@@ -18,6 +18,7 @@ import { Error } from "./error-type";
  /**
  * Types for Netatmo json Station Data request object
  * @see https://dev.netatmo.com/apidocumentation/weather#getstationsdata
+ * @author Federico Rinaldi
  */
  export type StationDataRequest = Error & {
 
@@ -32,6 +33,7 @@ import { Error } from "./error-type";
  /**
  * Types for Netatmo json Station Data response object
  * @see https://dev.netatmo.com/apidocumentation/weather#getstationsdata
+ * @author Federico Rinaldi
  */
 export type StationDataResponse = Error & {
 

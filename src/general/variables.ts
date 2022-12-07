@@ -1,8 +1,6 @@
 /**
  * Declare Constants for http Call NetAtmo API
  * @author: Federico Rinaldi
- * @version: 1.0.0 
- * @license:MIT
  */
 
 const NETATMO_API_URL:string = "https://api.netatmo.com/";
