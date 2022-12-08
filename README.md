@@ -18,10 +18,10 @@
 >  GNU General Public License v3.0 
 
 
-#####  see [LICENSE.md](https://github.com/Federico-Rinaldi/netatmo-ts-lib/blob/main/LICENSE.md "LICENSE.md") for more details
+#####  see [LICENSE.md](https://github.com/Federico-Rinaldi/netatmo-ts-api/blob/main/LICENSE.md "LICENSE.md") for more details
 
 ------------
 
 ### Infos:
-- :fa-github: [Repository Github](https://federico-rinaldi.github.io/netatmo-ts-lib/index.html "Repository")
+- :fa-github: [Repository Github](https://federico-rinaldi.github.io/netatmo-ts-api/index.html "Repository")
 - :fa-rocket: https://federicorinaldi.com
